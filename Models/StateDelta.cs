@@ -1,6 +1,8 @@
-﻿namespace Algorand.Models
+﻿using System.Collections.Generic;
+
+namespace Algorand.Models
 {
-	public struct StateDelta
+	public class StateDelta : List<EvalDeltaKeyValue>
 	{
 		
 	}

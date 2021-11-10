@@ -2,6 +2,7 @@
 {
 	public struct ErrorResponse
 	{
-		
+		public string data;
+		public string message;
 	}
 }
